@@ -1,5 +1,5 @@
 languageCode: "en-us"
-baseUrl: "https://nickkeers.com"
+baseUrl: "http://nickkeers.com"
 title: "Nick Keers - blog"
 theme: "anubis"
 paginate: 10
@@ -17,8 +17,6 @@ menu:
 params:
   author: "Nick Keers"
   description: "I'm a software engineer currently working in Infrastructure automation / platform engineering"
-  images:
-    - images/og-featured.png # relative path to "static" directory
   customCSS:
     - css/my.css # relative path to "static" directory
   customJS:
