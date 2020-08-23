@@ -1,5 +1,5 @@
 languageCode: "en-us"
-baseUrl: "http://nickkeers.com"
+baseUrl: "https://nickkeers.com"
 title: "Nick Keers - blog"
 theme: "anubis"
 paginate: 10
