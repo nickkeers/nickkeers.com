@@ -23,7 +23,7 @@ params:
     - js/main.js # relative path to "static" directory
   dateFormat: "2006-01-02"
   paginationSinglePost: true
-  style: light-without-switcher
+  style: light
   readMore: false
 
 markup:
