@@ -1,6 +1,6 @@
-baseURL = "https://example.com"
+baseURL = "https://nickkeers.com"
 languageCode = "en-us"
-title = "Anubis"
+title = "Tech blog"
 theme = "anubis"
 paginate = 3
 
@@ -8,18 +8,17 @@ disqusShortname = ""
 googleAnalytics = ""
 
 [author]
-  name = "Dmitry Kolosov"
+  name = "Nick Keers"
 
 [params]
-   author = "Dmitry Kolosov"
-   description = "Anubis is a simple minimalist theme for Hugo blog engine."
+   author = "Nick Keers"
+   description = "I'm a software engineer currently working in Infrastructure automation / platform engineering"
    dateFormat = "2006-01-02"
    paginationSinglePost = true
-   style = "light-without-switcher"
+   style = "light"
    readMore = false
 
 [menu]
-
   [[menu.main]]
     identifier = "about"
     name = "About"
