@@ -1,6 +1,6 @@
 languageCode: "en-us"
 baseUrl: "https://nickkeers.com"
-title: "Nick Keers - blog"
+title: "Tech blog"
 theme: "anubis"
 paginate: 10
 googleAnalytics: UA-176069915-1
