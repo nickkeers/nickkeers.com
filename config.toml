@@ -1,11 +1,11 @@
 baseURL = "https://nickkeers.com"
 languageCode = "en-us"
-title = "Tech blog"
+title = "Nick Keers - Tech blog"
 theme = "anubis"
 paginate = 3
 
 disqusShortname = ""
-googleAnalytics = ""
+googleAnalytics = "UA-176069915-1"
 
 [author]
   name = "Nick Keers"
@@ -16,7 +16,7 @@ googleAnalytics = ""
    dateFormat = "2006-01-02"
    paginationSinglePost = true
    style = "light"
-   readMore = false
+   readMore = true
 
 [menu]
   [[menu.main]]

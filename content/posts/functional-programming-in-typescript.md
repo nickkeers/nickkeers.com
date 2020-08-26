@@ -4,9 +4,11 @@ date: 2020-08-24T21:37:53+01:00
 draft: false
 ---
 
-## The benefits of functional programming
+The industry as a whole from what I've seen has been shifting in the last few years, with developers looking to take some ideas from functional programming to aid them in their day to day job of writing software.
 
-The industry as a whole from what I've seen has been shifting in the last few years, with developers looking to take some ideas from functional programming to aid them in their day to day job of writing software. Writing software isn't an easy task, a lot of applications have to deal with ever-changing internal state, complex business logic and you're often under constant pressure to deliver new features at a blistering pace; and these are all areas where functional programming can help (shocker - I wouldn't be writing this post if I didn't believe that).
+<!--more-->
+
+Writing software isn't an easy task, a lot of applications have to deal with ever-changing internal state, complex business logic and you're often under constant pressure to deliver new features at a blistering pace; and these are all areas where functional programming can help (shocker - I wouldn't be writing this post if I didn't believe that).
 
 ## What is functional programming?
 
