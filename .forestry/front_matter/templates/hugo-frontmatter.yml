@@ -1,0 +1,13 @@
+---
+label: Hugo Frontmatter
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: boolean
+  name: math
+  label: math
