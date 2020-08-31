@@ -1,20 +1,18 @@
 ---
-title: "Functional Programming in Typescript Part 2"
-date: 2020-08-25T21:25:04+01:00
-draft: false
+title: Functional Programming in Typescript Part 2
+date: 2020-08-25T21:25:04.000+01:00
 math: true
+
 ---
-
-
 Last time I wrote about pure functions and the benefits they can bring to your code. However, it may not be immediately clear how to use pure functions and how to handle side-effects in your software - after all, without side-effects, your software won't be able to do anything meaningful.
 
 Side-effects bring us the ability to persist data to files or a database for example or allow us to split our software into microservices that can communicate over HTTP or a similar protocol. I try to keep in mind the idea of keeping a functional core for my logic and having side-effect producing functions separate. This has the advantage of keeping your main business/app logic separate from your functions that persist your data, meaning that they are far easier to test as you no longer have to mock out the database to test core logic. However, this does leave us with more functions lying around in our code, to fix we can look to function composition as a way to combine these functions back together again so we can persist our data.
 
 ## Function composition
 
-Function composition is a simple, but powerful idea; all it means is that if we have two separate functions, we can combine them to get a single result. In mathematical terms, if we have the functions $$f(x) \rarr Y$$ and $$g(y) \rarr -> Z$$ then our new function h is:
+Function composition is a simple, but powerful idea; all it means is that if we have two separate functions, we can combine them to get a single result. In mathematical terms, if we have the functions $$f(x) \\rarr Y$$ and $$g(y) \\rarr Z$$ then our new function h is:
 
-$$h(x) = (g \cdot f)(x)$$
+$$h(x) = (g \\cdot f)(x)$$
 
 If that looks scary, think about it like the below. We have a function `f` that takes a number and adds 2 and a function `g` that multiplies by 2 and we want to combine them into a single function that adds 2 and multiplies 2 to the given number
 
@@ -114,11 +112,9 @@ console.log(h(2))
 
 We see in the console:
 
-```
-[LOG]: f(2)
-[LOG]: g(4)
-[LOG]: 8
-```
+    [LOG]: f(2)
+    [LOG]: g(4)
+    [LOG]: 8
 
 Hooray, our compose function works! So now we could write `saveUser` like this, just like we wanted to in the first place - very concise!
 
