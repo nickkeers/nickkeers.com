@@ -1,6 +1,5 @@
 +++
 date = 2020-08-31T13:30:00Z
-draft = true
 math = false
 title = "About"
 
